@@ -194,7 +194,6 @@ addEventListener('DOMContentLoaded', (e) => {
                         col5.append(botonVolver);
                         divResultado.append(col5);
         }
-        
 // FUNCIONES DECLARADAS
 
         function estilosBody() {
