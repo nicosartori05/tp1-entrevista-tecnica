@@ -119,7 +119,7 @@ addEventListener('DOMContentLoaded', (e) => {
                         pTempMin.innerHTML = `Temp. Min: ${Math.ceil(data.main.temp_min)} °C`;
                         pHumedad.innerHTML = `Humedad: ${data.main.humidity}%`;
                         pPresion.innerHTML = `Presion: ${data.main.pressure} hPa`;
-                        pVelocidadViento.innerHTML = `Velocidad del viento: ${(data.wind.speed)*3.6} km/h`;
+                        pVelocidadViento.innerHTML = `Velocidad del viento: ${Math.ceil((data.wind.speed)*3.6)} km/h`;
                         
                         
                         let codigoClima = data.weather[0].id;
