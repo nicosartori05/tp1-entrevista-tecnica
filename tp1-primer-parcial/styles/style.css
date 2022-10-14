@@ -1,4 +1,3 @@
-
 .container{
     width: 600px;
     background-color: white;
@@ -23,30 +22,10 @@ button:hover{
     background-color: rgb(167, 165, 165);
     color: white;
 }
-/* FORM */
- /* #form{
-    background-color: white;
-    border-radius: 10px;
-    width: 40vw;
-    padding: 20px;
-    margin: 5rem auto;
-}  */
-/* #form input{
-    width: 80%;
-} */
+
 #form p{
     display: none;
 }
-
-
-/* #resultado{
-    margin: 20px auto;
-    text-align: center;
-    padding: 30px;
-    background-color: white;
-    width: 500px;
-    border-radius: 10px;
-} */
 
 #infoPrimaria{
     display: flex;
@@ -80,8 +59,25 @@ button:hover{
 @media screen and (max-width: 540px)
 {
     .container{
-        width: 380px;
+        width: 340px;
     }
+
+}
+
+
+
+
+/* FORM */
+ /* #form{
+    background-color: white;
+    border-radius: 10px;
+    width: 40vw;
+    padding: 20px;
+    margin: 5rem auto;
+}  */
+/* #form input{
+    width: 80%;
+} */
     /* #form{
         background-color: white;
         border-radius: 10px;
@@ -89,4 +85,11 @@ button:hover{
         padding: 20px;
         margin: 5rem auto;
     } */
-}
+    /* #resultado{
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+} */

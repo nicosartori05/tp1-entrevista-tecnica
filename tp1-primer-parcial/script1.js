@@ -96,6 +96,9 @@ addEventListener('DOMContentLoaded', (e) => {
                     }
 
                     })
+                    .catch(err => {
+                        console.log('error.')
+                    })
                     .finally(final => {
                         console.log('Finalizado.')
                     })
@@ -150,7 +153,8 @@ addEventListener('DOMContentLoaded', (e) => {
                                 break;
                             case codigoClima === 800 :
                                 imgClima.src='img/dom.png';
-                                body.style.backgroundImage = "url('./img/gifs/soleado.gif')"
+                                 body.style.backgroundImage = "url('./img/gifs/soleado.gif')"
+                               
         
                                 break;
                             case codigoClima >= 801 && codigoClima <=804 :
