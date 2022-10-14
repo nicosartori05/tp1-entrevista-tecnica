@@ -1,20 +1,11 @@
-@media screen and (max-width: 480px)
-{
-    .container{
-        width: 320px;
-    }
-    #resultado{
-        width: 320px;
-    }
-}
-@media screen and (max-width: 768px)
-{
-    .container{
-        width: 768px;
-    }
-    #resultado{
-        width: 400px;
-    }
+
+.container{
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+
 }
 body{
     background-color: rgb(242, 240, 240);
@@ -33,29 +24,29 @@ button:hover{
     color: white;
 }
 /* FORM */
-#form{
+ /* #form{
     background-color: white;
     border-radius: 10px;
     width: 40vw;
     padding: 20px;
     margin: 5rem auto;
-}
-#form input{
+}  */
+/* #form input{
     width: 80%;
-}
+} */
 #form p{
     display: none;
 }
 
 
-#resultado{
+/* #resultado{
     margin: 20px auto;
     text-align: center;
     padding: 30px;
     background-color: white;
     width: 500px;
     border-radius: 10px;
-}
+} */
 
 #infoPrimaria{
     display: flex;
@@ -86,3 +77,16 @@ button:hover{
 }
 
 
+@media screen and (max-width: 540px)
+{
+    .container{
+        width: 380px;
+    }
+    /* #form{
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        margin: 5rem auto;
+    } */
+}
