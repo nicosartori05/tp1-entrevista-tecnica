@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(242, 240, 240);
+}
+button{
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(167, 165, 165);
+    color: white;
+}
+/* FORM */
+#form{
+    background-color: white;
+    border-radius: 10px;
+    width: 40vw;
+    padding: 20px;
+    margin: 5rem auto;
+}
+#form input{
+    width: 80%;
+}
+#form p{
+    display: none;
+}
+
+
+#resultado{
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#infoPrimaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#infoPrimaria>h2{
+    font-size: 70px;
+    margin-left: 40px;
+}
+#infoTerciaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#infoTerciaria>p{
+    padding:1.5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+#infoCuaternaria>p{
+    margin: auto;
+    border-bottom: 1px solid grey;
+    width: 300px;
+}
+#button-volver{
+    margin-top: 30px;
+}
+
+
